@@ -272,3 +272,54 @@ print(type(tup4))           # tuple
 
 #DICTIONARY
 
+Dic1={
+  "name":"Abul Qasim",
+  "Age":25,
+  "Habits":{                   #nested dictionary
+    "Drinking":False,
+    "Smooking":False,
+    "Reading":True,
+  }
+}
+
+print(Dic1)                 #simple print of complete dictionary
+print(Dic1["Age"])          # print of one key
+print(Dic1["Habits"])        #print of nested divtioary
+print(Dic1["Habits"]["Drinking"])        #print of nested divtioary value
+Dic1["Age"]=30              #reassign the value
+print(Dic1)
+
+
+# METHODS OF DICTIONARY
+
+print(len(Dic1.keys()))
+print(list(Dic1.keys()))            # change the data type
+print(Dic1.keys())
+print(Dic1.values())
+print(Dic1.items())
+print(Dic1.get("keys"))             # return N one if not found
+Dic1.update({
+  "Sex":"male"
+})
+print(Dic1.keys())
+
+
+# SET
+
+set1={1,2,3,4,4,5,True,"Qasim",(12,13)}                 # Not indexing, immuteable, unique element, not store muteable data type like list and dictionary
+
+print(set1)
+print(type(set1))
+
+coll1={}         # dictionary
+coll2=set()         # Set
+coll={1}         # set
+
+#NETHODS OF SETS
+
+set1.add(12)
+set1.remove(1)        # remove the element
+set1.clear()          # remove all element
+set1.pop()            # remove random elemet    
+
+
