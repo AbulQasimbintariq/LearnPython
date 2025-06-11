@@ -307,6 +307,7 @@ print(Dic1.keys())
 # SET
 
 set1={1,2,3,4,4,5,True,"Qasim",(12,13)}                 # Not indexing, immuteable, unique element, not store muteable data type like list and dictionary
+set2={2,4,4,5,"Qasim",(12,13)} 
 
 print(set1)
 print(type(set1))
@@ -322,4 +323,23 @@ set1.remove(1)        # remove the element
 set1.clear()          # remove all element
 set1.pop()            # remove random elemet    
 
+set1.union(set2)               # conbine all elements
+set1.intersection(set2)      # common elements
 
+values={9,9.0}        # treat same value ignore the data type 
+print(values)
+
+#DICTIONARY EXAMPLE WITH INPUT
+
+subjects={}
+
+x=int(input("type phy marks : "))
+subjects.update({"phy : ", x})
+
+y=int(input("type che marks : "))
+subjects.update({"che : ", y})
+
+z=int(input("type math marks : "))
+subjects.update({"math : ", z})
+
+print(subjects)
