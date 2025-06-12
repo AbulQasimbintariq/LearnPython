@@ -343,3 +343,6 @@ z=int(input("type math marks : "))
 subjects.update({"math : ", z})
 
 print(subjects)
+
+# LOOPS   FOR AND WHILE
+
