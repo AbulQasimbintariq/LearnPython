@@ -293,7 +293,7 @@ print(Dic1)
 # METHODS OF DICTIONARY
 
 print(len(Dic1.keys()))
-print(list(Dic1.keys()))            # change the data type
+# print(list(Dic1.keys()))            # change the data type
 print(Dic1.keys())
 print(Dic1.values())
 print(Dic1.items())
@@ -321,7 +321,7 @@ coll={1}         # set
 set1.add(12)
 set1.remove(1)        # remove the element
 set1.clear()          # remove all element
-set1.pop()            # remove random elemet    
+# set1.pop()            # remove random elemet    
 
 set1.union(set2)               # conbine all elements
 set1.intersection(set2)      # common elements
@@ -346,3 +346,21 @@ print(subjects)
 
 # LOOPS   FOR AND WHILE
 
+
+count=1
+
+while count>=5:
+  print("Hello")
+  count+=1
+  
+  
+  
+  
+#   TABLE WITH INPUT FUNCTION
+
+n=int(input("Make The Table Of : ")) 
+i=1
+while  i>=10:
+      print(n*i)
+      i+=1
+  
