@@ -499,4 +499,9 @@ def itrate(list,index=0):
          return
        print(list[index])
        itrate(list,index+1)
-itrate(fruits)       
+itrate(fruits) 
+
+
+#   FILE INPUT AND OUTPUT
+
+      
