@@ -491,17 +491,25 @@
 
 # list elements print with recursion 
 
-fruits=["apple","mangoe","banana","orange"]
-vaagetable=["ptato","ladybird","tamato"]  
+# fruits=["apple","mangoe","banana","orange"]
+# vaagetable=["ptato","ladybird","tamato"]  
 
-def itrate(list,index=0):
-       if(index==len(list)):
-         return
-       print(list[index])
-       itrate(list,index+1)
-itrate(fruits) 
+# def itrate(list,index=0):
+#        if(index==len(list)):
+#          return
+#        print(list[index])
+#        itrate(list,index+1)
+# itrate(fruits) 
 
 
 #   FILE INPUT AND OUTPUT
 
-      
+# f=open("demo.txt","r")
+# data=f.read(5)
+# print(data)
+# f.close()  
+
+f=open("demo.txt","r")
+data=f.readline()
+print(data)
+f.close()     
