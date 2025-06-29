@@ -517,9 +517,38 @@
 # f=open("sample.txt","a")
 # f.write("I am Qasim.")
 # f.close() 
-f=open("sample.txt","r+")
-f.write("You")
-f.close()
-f=open("my.txt","w")
-f.write("Hello Qasim")
-f.close() 
+# f=open("sample.txt","r+")
+# f.write("You")
+# f.close()
+# f=open("my.txt","w")
+# f.write("Hello Qasim")
+# f.close() 
+
+# with open("demo.txt","r") as f:
+#       data=f.read()
+#       print(data)
+# import os
+
+# os.remove("my.txt")  #to delete file
+
+
+# with open("sample.txt","w") as f:    #auto close the file
+#       data=f.write("Hello Qasim \nHow are you.")
+#       print(data)
+# with open("sample.txt","r") as f:    #auto close the file
+#       data=f.read()
+#       print(data)
+# DataChange=data.replace("Qasim","Anas")
+# print(DataChange)
+# with open("sample.txt","w") as f:    #auto close the file
+#       data=f.write(DataChange)    
+
+
+word="Anas"
+with open("sample.txt","r") as f:    #auto close the file
+      data=f.read()
+      if (data.find(word) != -1):
+            print("Found")
+      else:print("Not Found")
+                  
+  
