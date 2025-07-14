@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    background-color: black;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+#h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(252, 114, 114);
+    background-color: rgb(48, 43, 43);
+    padding: 5px 0;
+    margin: 5px 0; 
+}
+
+.h3{
+     text-align: center;
+    text-decoration: underline;
+    color: rgb(245, 133, 133);
+    background-color: rgb(82, 76, 76);
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+#traficlights{
+    position: absolute;  /* relative to its parents and document flow ended */ 
+    top: 80px;      
+    border: 2px solid black;
+    width: 120px;
+    justify-items: center;
+}
+
+.lights{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+    position:absolute;
+    top: 50px;
+}
+
+#green{
+    background-color: green;
+}
+
+#box{
+    position:sticky;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+    top: 0px;
+    left: 10px;
+    
+}
